@@ -1,0 +1,27 @@
+{
+  "name": "wimm",
+  "version": "0.1.0",
+  "description": "Tool to review personal finances",
+  "main": "src/app.js",
+  "scripts": {
+    "run": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "tap",
+    "testw": "tap repl w"
+  },
+  "keywords": [
+    "personal finance"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "htmx.org": "^1.9.12",
+    "nodemon": "^3.1.4",
+    "tap": "^20.0.1"
+  },
+  "dependencies": {
+    "@nuchs/templar": "^1.0.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  }
+}

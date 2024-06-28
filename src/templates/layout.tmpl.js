@@ -13,7 +13,20 @@ function layout(body) {
   <title>Where is my money!?</title>
 </head>
 <body>
-   ${body} 
+  <header>
+    <h1>Where is my money!?</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/history">History</a></li>
+      <li><a href="/transaction">Transaction</a></li>
+      <li><a href="/config">Configuration</a></li>
+    </ul>
+  </nav>
+  <main>
+     ${body} 
+  </main>
 </body>
 </html>`;
 }
